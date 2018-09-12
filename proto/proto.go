@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"flag"
 	"fmt"
-	"github.com/iron-kit/micro-assistant/file"
+	"github.com/iron-kit/go-ironic/file"
 	"github.com/urfave/cli"
 	"os"
 	"os/exec"
