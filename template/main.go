@@ -36,6 +36,7 @@ func main() {
 	MainSRV = `package main
 
 import (
+	"github.com/iron-kit/go-ironic"
 	"github.com/micro/go-log"
 	"github.com/micro/go-micro"
 	"{{.Dir}}/handler"
@@ -46,7 +47,7 @@ import (
 
 func main() {
 	// New Service
-	service := micro.NewService(
+	service := ironic.NewService(
 		micro.Name("{{.FQDN}}"),
 		micro.Version("latest"),
 	)

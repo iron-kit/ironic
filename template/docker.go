@@ -7,8 +7,11 @@ ENTRYPOINT [ "/{{.Alias}}-{{.Type}}" ]
 `
 
 	DockerSRV = `FROM alpine:3.2
-ADD {{.Alias}}-{{.Type}} /{{.Alias}}-{{.Type}}
-ENTRYPOINT [ "/{{.Alias}}-{{.Type}}" ]
+RUN mkdir /app
+WORKDIR /app
+ADD {{.Alias}}-{{.Type}} /app/{{.Alias}}-{{.Type}}
+ENTRYPOINT [ "/app/{{.Alias}}-{{.Type}}" ]
+CMD ["./{{.Alias}}-{{.Type}}"]
 `
 
 	DockerWEB = `FROM alpine:3.2
