@@ -2,6 +2,7 @@ github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/iron-kit/go-ironic v0.0.0-20180928131205-6aee951da06c h1:xde7HXTHB6HZDQcFEUcA+G0dcIz/r8Z+19vKJ2p4zLY=
 github.com/iron-kit/go-ironic v0.0.0-20180928131205-6aee951da06c/go.mod h1:GViZGN0yt/VcH/spORTToOvgCb0DT1Q7VMVg5bNR2v0=
+github.com/iron-kit/go-ironic v0.0.0-20181023064619-fb67033d5b8c/go.mod h1:GViZGN0yt/VcH/spORTToOvgCb0DT1Q7VMVg5bNR2v0=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/stretchr/testify v1.2.2 h1:bSDNvY7ZPG5RlJ8otE/7V6gMiyenm9RtJ7IUVIAoJ1w=
